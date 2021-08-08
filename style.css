@@ -1,13 +1,18 @@
+*{
+  box-sizing: border-box;
+}
 body {
   background-color: #ddd;
   color:#fff;
   font-size: 15px;
   font-family: "Lexend Deca";
   font-weight: 400;
+  box-sizing: border-box;
 }
 .container {
   width:60%;
   margin: auto;
+  box-sizing: border-box;
 }
 .box {
   position: relative;
@@ -94,9 +99,111 @@ font-size:2em;
   color:#fff;
   background-color:hsl(179, 100%, 13%);
 }
+
+@media (max-width:960px) {
+  .container {
+    width:90%;
+    margin: auto;
+  }
+  .box {
+    position: relative;
+    display: flex;
+    top:6em;
+    flex-direction:row;
+  }
+
+  .car_box1 {
+    background-color: hsl(31, 77%, 52%);
+    height:25em;
+    border-radius:8px 0px px 8px;
+    flex-basis:17em;
+    box-sizing: border-box;
+    height:30em;
+  }
+  .icon {
+    position: relative;
+    left:1.5em;
+    top:0.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .heading {
+  position: relative;
+  left:.7em;
+  font-size:1.8em;
+  top:-1em;
+  }
+  .blockText {
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 58%; */
+    width: 78%;
+    line-height:1.6em;
+    position: relative;
+    top:-3em;
+  }
+
+  .car_box2 {
+    background-color: hsl(184, 100%, 22%);
+    flex-basis:17em;
+    height:30em;
+    box-sizing: border-box;
+  }
+  .car_box3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius:0px 8px 8px 0px;
+    flex-basis:17em;
+    height:30em;
+    box-sizing: border-box;
+  }
+  .btn {
+    position: relative;
+    left:2em;
+    border:none;
+    height:3em;
+    border-radius: 25px;
+    padding:12px;
+    width: 10em;
+    color:rgba(0,0,0,0.5);
+    top:-1.5em;
+  }
+  .btn1 {
+    color:hsl(31, 77%, 52%);
+  }
+  .btn1:active{
+    cursor: pointer;
+    border:2px solid #fff;
+    color:#fff;
+    background-color:hsl(31, 77%, 52%);
+  }
+
+  .btn2 {
+    color:hsl(184, 100%, 22%);
+  }
+  .btn2:active{
+    cursor: pointer;
+    border:2px solid #fff;
+    color:#fff;
+    background-color:hsl(184, 100%, 22%);
+  }
+  .btn3 {
+    color:hsl(179, 100%, 13%);
+  }
+  .btn3:active{
+    cursor: pointer;
+    border:2px solid #fff;
+    color:#fff;
+    background-color:hsl(179, 100%, 13%);
+  }
+}
 /* Media query for responsiveness for mobile view */
 @media (max-width:600px) {
 
+  .container {
+    width:70%;
+    margin: auto;
+    box-sizing: border-box;
+  }
   .box {
     position: relative;
     display: flex;
@@ -108,7 +215,104 @@ font-size:2em;
     background-color: hsl(31, 77%, 52%);
     height:25em;
     border-radius:8px 8px 0px 0px;
+    flex-basis:8em;
+    box-sizing: border-box;
+    height:30em;
+  }
+  .icon {
+    position: relative;
+    left:4.5em;
+    top:0.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .heading {
+  position: relative;
+  left:2.7em;
+  font-size:1.8em;
+  top:-1em;
+  }
+  .blockText {
+    margin-left: auto;
+    margin-right: auto;
+    width: 58%;
+    line-height:1.6em;
+    position: relative;
+    top:-3em;
+  }
+
+  .car_box2 {
+    background-color: hsl(184, 100%, 22%);
     flex-basis:17em;
+    height:30em;
+    box-sizing: border-box;
+  }
+  .car_box3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius:0px 0px 8px 8px;
+    flex-basis:17em;
+    height:30em;
+    box-sizing: border-box;
+  }
+  .btn {
+    position: relative;
+    left:4.5em;
+    border:none;
+    height:3em;
+    border-radius: 25px;
+    padding:12px;
+    width: 10em;
+    color:rgba(0,0,0,0.5);
+    top:-2.5em;
+  }
+  .btn1 {
+    color:hsl(31, 77%, 52%);
+  }
+  .btn1:active{
+    cursor: pointer;
+    border:2px solid #fff;
+    color:#fff;
+    background-color:hsl(31, 77%, 52%);
+  }
+
+  .btn2 {
+    color:hsl(184, 100%, 22%);
+  }
+  .btn2:active{
+    cursor: pointer;
+    border:2px solid #fff;
+    color:#fff;
+    background-color:hsl(184, 100%, 22%);
+  }
+  .btn3 {
+    color:hsl(179, 100%, 13%);
+  }
+  .btn3:active{
+    cursor: pointer;
+    border:2px solid #fff;
+    color:#fff;
+    background-color:hsl(179, 100%, 13%);
+  }
+}
+@media (max-width:375px) {
+
+  .container {
+    width:70%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  .box {
+    position: relative;
+    display: flex;
+    top:6em;
+    flex-direction:column;
+  }
+
+  .car_box1 {
+    background-color: hsl(31, 77%, 52%);
+    height:25em;
+    border-radius:8px 8px 0px 0px;
+    flex-basis:8em;
     box-sizing: border-box;
     height:30em;
   }
@@ -149,7 +353,7 @@ font-size:2em;
   }
   .btn {
     position: relative;
-    left:4.5em;
+    left:4em;
     border:none;
     height:3em;
     border-radius: 25px;
