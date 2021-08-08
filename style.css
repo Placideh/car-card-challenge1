@@ -1,6 +1,76 @@
 *{
   box-sizing: border-box;
 }
+@media (max-width:1440px) {
+  .container {
+    width:60%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  .box {
+    position: relative;
+    display: flex;
+    top:6em;
+  }
+
+  .car_box1 {
+    background-color: hsl(31, 77%, 52%);
+    height:25em;
+    border-radius:8px 0px 0px 8px;
+    flex-basis:17em;
+    box-sizing: border-box;
+    height:33em;
+  }
+  .icon {
+    position: relative;
+    left:1.5em;
+    top:1.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .heading {
+  position: relative;
+  left:.7em;
+  font-size:2em;
+  }
+  .blockText {
+    margin-left: auto;
+    margin-right: auto;
+    width: 83%;
+    line-height:1.6em;
+  }
+
+  .car_box2 {
+    background-color: hsl(184, 100%, 22%);
+    flex-basis:17em;
+    box-sizing: border-box;
+    height:33em;
+  }
+  .car_box3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius:0px 8px 8px 0px;
+    flex-basis:17em;
+    height:33em;
+    box-sizing: border-box;
+  }
+  .btn {
+    position: relative;
+    left:2em;
+    border:none;
+    height:3em;
+    border-radius: 25px;
+    padding:12px;
+    width: 10em;
+    color:rgba(0,0,0,0.5);
+    top:3.5em;
+  }
+  .btn2 {
+    position: relative;
+    top:1.5em;
+  }
+
+
+}
 body {
   background-color: #ddd;
   color:#fff;
@@ -99,6 +169,7 @@ font-size:2em;
   color:#fff;
   background-color:hsl(179, 100%, 13%);
 }
+
 
 @media (max-width:960px) {
   .container {
@@ -292,6 +363,93 @@ font-size:2em;
     border:2px solid #fff;
     color:#fff;
     background-color:hsl(179, 100%, 13%);
+  }
+}
+
+@media (max-width:414px) {
+  .container {
+    width:70%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  .box {
+    position: relative;
+    display: flex;
+    top:6em;
+    flex-direction:column;
+  }
+
+  .car_box1 {
+    background-color: hsl(31, 77%, 52%);
+    height:25em;
+    border-radius:8px 8px 0px 0px;
+    flex-basis:8em;
+    box-sizing: border-box;
+    height:30em;
+  }
+  .icon {
+    position: relative;
+    left:3.5em;
+    top:0.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .heading {
+  position: relative;
+  left:2em;
+  font-size:1.8em;
+  top:-1em;
+  }
+  .blockText {
+    margin-left: auto;
+    margin-right: auto;
+    width: 58%;
+    line-height:1.6em;
+    position: relative;
+    top:-3em;
+  }
+}
+@media (max-width:414px) {
+  .container {
+    width:70%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  .box {
+    position: relative;
+    display: flex;
+    top:6em;
+    flex-direction:column;
+  }
+
+  .car_box1 {
+    background-color: hsl(31, 77%, 52%);
+    height:25em;
+    border-radius:8px 8px 0px 0px;
+    flex-basis:8em;
+    box-sizing: border-box;
+    height:30em;
+  }
+  .icon {
+    position: relative;
+    left:3.5em;
+    top:0.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .heading {
+  position: relative;
+  left:2em;
+  font-size:1.8em;
+  top:-1em;
+  }
+  .blockText {
+    margin-left: auto;
+    margin-right: auto;
+    width: 58%;
+    line-height:1.6em;
+    position: relative;
+    top:-3em;
   }
 }
 @media (max-width:375px) {
