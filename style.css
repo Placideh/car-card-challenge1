@@ -92,3 +92,182 @@ font-size:2em;
   color:#fff;
   background-color:hsl(179, 100%, 13%);
 }
+/* Media query for responsiveness for mobile view */
+@media (max-width:600px) {
+  .box {
+    position: relative;
+    display: flex;
+    top:6em;
+    flex-direction: column;
+  }
+
+  .car_box1 {
+    background-color: hsl(31, 77%, 52%);
+    height:25em;
+    border-radius:8px 8px 0px 0px;
+    flex-basis:17em;
+    box-sizing: border-box;
+    height:30em;
+  }
+  .icon {
+    position: relative;
+    left:3em;
+    top:0.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .heading {
+  position: relative;
+  left:1.6em;
+  font-size:2em;
+  top:-1em;
+  }
+  .blockText {
+    margin-left: auto;
+    margin-right: auto;
+    width: 68%;
+    line-height:1.6em;
+    position: relative;
+    top:-3em;
+  }
+
+  .car_box2 {
+    background-color: hsl(184, 100%, 22%);
+    flex-basis:17em;
+    height:30em;
+    box-sizing: border-box;
+  }
+  .car_box3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius:0px 0px 8px 8px;
+    flex-basis:17em;
+    height:30em;
+    box-sizing: border-box;
+  }
+  .btn {
+    position: relative;
+    left:4.1em;
+    border:none;
+    height:3em;
+    border-radius: 25px;
+    padding:12px;
+    width: 10em;
+    color:rgba(0,0,0,0.5);
+    top:-2.5em;
+  }
+  .btn1 {
+    color:hsl(31, 77%, 52%);
+  }
+  .btn1:active{
+    cursor: pointer;
+    border:2px solid #fff;
+    color:#fff;
+    background-color:hsl(31, 77%, 52%);
+  }
+  .
+  .btn2 {
+    color:hsl(184, 100%, 22%);
+  }
+  .btn2:active{
+    cursor: pointer;
+    border:2px solid #fff;
+    color:#fff;
+    background-color:hsl(184, 100%, 22%);
+  }
+  .btn3 {
+    color:hsl(179, 100%, 13%);
+  }
+  .btn3:active{
+    cursor: pointer;
+    border:2px solid #fff;
+    color:#fff;
+    background-color:hsl(179, 100%, 13%);
+  }
+}
+@media (max-width:960px) {
+  .box {
+    position: relative;
+    display: flex;
+    top:6em;
+  }
+
+  .car_box1 {
+    background-color: hsl(31, 77%, 52%);
+    height:25em;
+    border-radius:8px 0px 0px 8px;
+    flex-basis:17em;
+    box-sizing: border-box;
+    height:30em;
+  }
+  .icon {
+    position: relative;
+    left:3em;
+    top:1.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .heading {
+  position: relative;
+  left:1.6em;
+  font-size:2em;
+  }
+  .blockText {
+    margin-left: auto;
+    margin-right: auto;
+    width: 68%;
+    line-height:1.6em;
+  }
+
+  .car_box2 {
+    background-color: hsl(184, 100%, 22%);
+    flex-basis:17em;
+    height:30em;
+    box-sizing: border-box;
+  }
+  .car_box3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius:0px 8px 8px 0px;
+    flex-basis:17em;
+    height:30em;
+    box-sizing: border-box;
+  }
+  .btn {
+    position: relative;
+    left:4.1em;
+    border:none;
+    height:3em;
+    border-radius: 25px;
+    padding:12px;
+    width: 10em;
+    color:rgba(0,0,0,0.5);
+    top:2.5em;
+  }
+  .btn1 {
+    color:hsl(31, 77%, 52%);
+  }
+  .btn1:active{
+    cursor: pointer;
+    border:2px solid #fff;
+    color:#fff;
+    background-color:hsl(31, 77%, 52%);
+  }
+  .
+  .btn2 {
+    color:hsl(184, 100%, 22%);
+  }
+  .btn2:active{
+    cursor: pointer;
+    border:2px solid #fff;
+    color:#fff;
+    background-color:hsl(184, 100%, 22%);
+  }
+  .btn3 {
+    color:hsl(179, 100%, 13%);
+  }
+  .btn3:active{
+    cursor: pointer;
+    border:2px solid #fff;
+    color:#fff;
+    background-color:hsl(179, 100%, 13%);
+  }
+}
