@@ -75,7 +75,7 @@ font-size:2em;
   color:#fff;
   background-color:hsl(31, 77%, 52%);
 }
-.
+
 .btn2 {
   color:hsl(184, 100%, 22%);
 }
@@ -101,7 +101,7 @@ font-size:2em;
     position: relative;
     display: flex;
     top:6em;
-    flex-direction: column;
+    flex-direction:column;
   }
 
   .car_box1 {
@@ -167,7 +167,7 @@ font-size:2em;
     color:#fff;
     background-color:hsl(31, 77%, 52%);
   }
-  .
+
   .btn2 {
     color:hsl(184, 100%, 22%);
   }
